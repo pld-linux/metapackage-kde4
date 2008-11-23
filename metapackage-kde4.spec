@@ -5,7 +5,6 @@ Version:	4.1.73
 Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
-Requires:	akonadi
 Requires:	kde4-decoration-ozone >= %{version}
 Requires:	kde4-dolphin >= %{version}
 Requires:	kde4-icons-oxygen >= %{version}
@@ -84,8 +83,6 @@ Requires:	kde4-konqueror-libs >= %{version}
 Requires:	kde4-phonon >= %{version}
 Requires:	kde4-splash-Default >= %{version}
 Requires:	kde4-style-oxygen >= %{version}
-Requires:	soprano
-Requires:	strigi
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
