@@ -2,7 +2,7 @@ Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
 Version:	4.1.73
-Release:	1
+Release:	2
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	kde4-decoration-ozone >= %{version}
@@ -77,7 +77,7 @@ Requires:	kde4-kdeplasma-addons >= %{version}
 Requires:	kde4-kdm >= %{version}
 Requires:	kde4-kgreet-classic >= %{version}
 Requires:	kde4-kgreet-generic >= %{version}
-Requires:	kde4-kipiplugins >= %{version}
+Requires:	kde4-libkipi >= %{version}
 Requires:	kde4-konqueror >= %{version}
 Requires:	kde4-konqueror-libs >= %{version}
 Requires:	kde4-phonon >= %{version}
