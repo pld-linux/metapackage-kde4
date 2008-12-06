@@ -59,6 +59,7 @@ Requires:	kde4-kdenetwork-libkopete_oscar >= %{version}
 Requires:	kde4-kdenetwork-libkopete_otr >= %{version}
 Requires:	kde4-kdenetwork-libkopete_videodevice >= %{version}
 Requires:	kde4-kdepim >= %{version}
+Requires:	kde4-kdepim-akonadi >= %{version}
 Requires:	kde4-kdepim-akregator >= %{version}
 Requires:	kde4-kdepim-kaddressbook >= %{version}
 Requires:	kde4-kdepim-kmail >= %{version}
