@@ -8,6 +8,7 @@ Group:		X11/Applications
 Requires:	kde4-decoration-ozone >= %{version}
 Requires:	kde4-dolphin >= %{version}
 Requires:	kde4-icons-oxygen >= %{version}
+Requires:	kde4-kde3support >= %{version}
 Requires:	kde4-kdeartwork-screensavers >= %{version}
 Requires:	kde4-kdeartwork-wallpapers >= %{version}
 Requires:	kde4-kdebase >= %{version}
@@ -73,6 +74,7 @@ Requires:	kde4-kdepim-kontact-plugin-summary >= %{version}
 Requires:	kde4-kdepim-libs >= %{version}
 Requires:	kde4-kdepimlibs >= %{version}
 Requires:	kde4-kdeplasma-addons >= %{version}
+Requires:	kde4-kdeutils-kwalletmanager >= %{version}
 Requires:	kde4-kdm >= %{version}
 Requires:	kde4-kgreet-classic >= %{version}
 Requires:	kde4-kgreet-generic >= %{version}
