@@ -1,14 +1,13 @@
 Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
-Version:	4.1.81
+Version:	4.1.82
 Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	kde4-decoration-ozone >= %{version}
 Requires:	kde4-dolphin >= %{version}
 Requires:	kde4-icons-oxygen >= %{version}
-Requires:	kde4-kde3support >= %{version}
 Requires:	kde4-kdeartwork-screensavers >= %{version}
 Requires:	kde4-kdeartwork-wallpapers >= %{version}
 Requires:	kde4-kdebase >= %{version}
