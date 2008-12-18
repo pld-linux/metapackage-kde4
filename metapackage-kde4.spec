@@ -57,6 +57,7 @@ Requires:	kde4-kdenetwork-kopete-protocol-icq >= %{version}
 Requires:	kde4-kdenetwork-kopete-protocol-jabber >= %{version}
 Requires:	kde4-kdenetwork-kopete-protocol-wlm >= %{version}
 Requires:	kde4-kdenetwork-kopete-tool-history >= %{version}
+Requires:	kde4-kdenetwork-krfb >= %{version}
 Requires:	kde4-kdepim >= %{version}
 Requires:	kde4-kdepim-akonadi >= %{version}
 Requires:	kde4-kdepim-akregator >= %{version}
