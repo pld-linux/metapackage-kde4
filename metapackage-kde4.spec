@@ -86,6 +86,8 @@ Requires:	kde4-libkipi >= %{version}
 Requires:	kde4-phonon >= %{version}
 Requires:	kde4-splash-Default >= %{version}
 Requires:	kde4-style-oxygen >= %{version}
+Requires:	xinitrc-ng
+Requires:	xterm
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
