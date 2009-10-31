@@ -1,7 +1,7 @@
 Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
-Version:	4.3.1
+Version:	4.3.3
 Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
