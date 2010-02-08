@@ -2,9 +2,10 @@ Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
 Version:	4.4.0
-Release:	1
+Release:	2
 License:	GPL/LGPL
 Group:		X11/Applications
+Requires:	kde4-decoration-oxygen >= %{version}
 Requires:	kde4-decoration-ozone >= %{version}
 Requires:	kde4-desktopthemes >= %{version}
 Requires:	kde4-dolphin >= %{version}
@@ -42,7 +43,6 @@ Requires:	kde4-kdegraphics-ksnapshot >= %{version}
 Requires:	kde4-kdegraphics-okular >= %{version}
 Requires:	kde4-kdegraphics-svgpart >= %{version}
 Requires:	kde4-kdelibs >= %{version}
-Requires:	kde4-kdelibs-experimental >= %{version}
 Requires:	kde4-kdemultimedia-audiocd >= %{version}
 Requires:	kde4-kdemultimedia-cddb >= %{version}
 Requires:	kde4-kdemultimedia-dragon >= %{version}
