@@ -1,7 +1,7 @@
 Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
-Version:	4.4.4
+Version:	4.5.0
 Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
@@ -12,8 +12,6 @@ Requires:	kde4-icons-oxygen >= %{version}
 Requires:	kde4-kdeartwork-screensavers >= %{version}
 Requires:	kde4-kdeartwork-wallpapers >= %{version}
 Requires:	kde4-kdebase >= %{version}
-Requires:	kde4-kdebase-infocenter >= %{version}
-Requires:	kde4-kdebase-kappfinder >= %{version}
 Requires:	kde4-kdebase-kdialog >= %{version}
 Requires:	kde4-kdebase-kfind >= %{version}
 Requires:	kde4-kdebase-konsole >= %{version}
@@ -21,6 +19,7 @@ Requires:	kde4-kdebase-kwrite >= %{version}
 Requires:	kde4-kdebase-runtime >= %{version}
 Requires:	kde4-kdebase-useraccount >= %{version}
 Requires:	kde4-kdebase-workspace >= %{version}
+Requires:	kde4-kdebase-workspace-infocenter >= %{version}
 Requires:	kde4-kdebase-workspace-kfontinst >= %{version}
 Requires:	kde4-kdebase-workspace-klipper >= %{version}
 Requires:	kde4-kdebase-workspace-kwin >= %{version}
