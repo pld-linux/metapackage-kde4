@@ -2,7 +2,7 @@ Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
 Version:	4.5.0
-Release:	1
+Release:	2
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	kde4-decoration-oxygen >= %{version}
@@ -57,21 +57,21 @@ Requires:	kde4-kdenetwork-kopete-protocol-jabber >= %{version}
 Requires:	kde4-kdenetwork-kopete-protocol-wlm >= %{version}
 Requires:	kde4-kdenetwork-kopete-tool-history >= %{version}
 Requires:	kde4-kdenetwork-krfb >= %{version}
-Requires:	kde4-kdepim >= %{version}
-Requires:	kde4-kdepim-akregator >= %{version}
-Requires:	kde4-kdepim-kaddressbook >= %{version}
-Requires:	kde4-kdepim-kmail >= %{version}
-Requires:	kde4-kdepim-knode >= %{version}
-Requires:	kde4-kdepim-kontact >= %{version}
-Requires:	kde4-kdepim-kontact-plugin-akregator >= %{version}
-Requires:	kde4-kdepim-kontact-plugin-kaddressbook >= %{version}
-Requires:	kde4-kdepim-kontact-plugin-kmail >= %{version}
-Requires:	kde4-kdepim-kontact-plugin-knode >= %{version}
-Requires:	kde4-kdepim-kontact-plugin-korganizer >= %{version}
-Requires:	kde4-kdepim-kontact-plugin-planner >= %{version}
-Requires:	kde4-kdepim-kontact-plugin-summary >= %{version}
-Requires:	kde4-kdepim-libs >= %{version}
-Requires:	kde4-kdepim-runtime >= %{version}
+#Requires:	kde4-kdepim >= %{version}
+#Requires:	kde4-kdepim-akregator >= %{version}
+#Requires:	kde4-kdepim-kaddressbook >= %{version}
+#Requires:	kde4-kdepim-kmail >= %{version}
+#Requires:	kde4-kdepim-knode >= %{version}
+#Requires:	kde4-kdepim-kontact >= %{version}
+#Requires:	kde4-kdepim-kontact-plugin-akregator >= %{version}
+#Requires:	kde4-kdepim-kontact-plugin-kaddressbook >= %{version}
+#Requires:	kde4-kdepim-kontact-plugin-kmail >= %{version}
+#Requires:	kde4-kdepim-kontact-plugin-knode >= %{version}
+#Requires:	kde4-kdepim-kontact-plugin-korganizer >= %{version}
+#Requires:	kde4-kdepim-kontact-plugin-planner >= %{version}
+#Requires:	kde4-kdepim-kontact-plugin-summary >= %{version}
+#Requires:	kde4-kdepim-libs >= %{version}
+#Requires:	kde4-kdepim-runtime >= %{version}
 Requires:	kde4-kdepimlibs >= %{version}
 Requires:	kde4-kdeplasma-addons >= %{version}
 Requires:	kde4-kdeutils-ark >= %{version}
