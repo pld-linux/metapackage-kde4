@@ -1,8 +1,8 @@
 Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
-Version:	4.5.2
-Release:	2
+Version:	4.5.4
+Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	kde4-decoration-oxygen >= %{version}
@@ -73,21 +73,21 @@ Requires:	kde4-kdenetwork-krfb >= %{version}
 #Requires:	kde4-kdepim-libs >= %{version}
 #Requires:	kde4-kdepim-runtime >= %{version}
 # after 4.5.x gets kdepim, remove the lines below and uncomment the lines above
-Requires:	kde4-kdepim >= 4.4.7
-Requires:	kde4-kdepim-akregator >= 4.4.7
-Requires:	kde4-kdepim-kaddressbook >= 4.4.7
-Requires:	kde4-kdepim-kmail >= 4.4.7
-Requires:	kde4-kdepim-knode >= 4.4.7
-Requires:	kde4-kdepim-kontact >= 4.4.7
-Requires:	kde4-kdepim-kontact-plugin-akregator >= 4.4.7
-Requires:	kde4-kdepim-kontact-plugin-kaddressbook >= 4.4.7
-Requires:	kde4-kdepim-kontact-plugin-kmail >= 4.4.7
-Requires:	kde4-kdepim-kontact-plugin-knode >= 4.4.7
-Requires:	kde4-kdepim-kontact-plugin-korganizer >= 4.4.7
-Requires:	kde4-kdepim-kontact-plugin-planner >= 4.4.7
-Requires:	kde4-kdepim-kontact-plugin-summary >= 4.4.7
-Requires:	kde4-kdepim-libs >= 4.4.7
-Requires:	kde4-kdepim-runtime >= 4.4.7
+Requires:	kde4-kdepim >= 4.4.8
+Requires:	kde4-kdepim-akregator >= 4.4.8
+Requires:	kde4-kdepim-kaddressbook >= 4.4.8
+Requires:	kde4-kdepim-kmail >= 4.4.8
+Requires:	kde4-kdepim-knode >= 4.4.8
+Requires:	kde4-kdepim-kontact >= 4.4.8
+Requires:	kde4-kdepim-kontact-plugin-akregator >= 4.4.8
+Requires:	kde4-kdepim-kontact-plugin-kaddressbook >= 4.4.8
+Requires:	kde4-kdepim-kontact-plugin-kmail >= 4.4.8
+Requires:	kde4-kdepim-kontact-plugin-knode >= 4.4.8
+Requires:	kde4-kdepim-kontact-plugin-korganizer >= 4.4.8
+Requires:	kde4-kdepim-kontact-plugin-planner >= 4.4.8
+Requires:	kde4-kdepim-kontact-plugin-summary >= 4.4.8
+Requires:	kde4-kdepim-libs >= 4.4.8
+Requires:	kde4-kdepim-runtime >= 4.4.8
 #
 Requires:	kde4-kdepimlibs >= %{version}
 Requires:	kde4-kdeplasma-addons >= %{version}
