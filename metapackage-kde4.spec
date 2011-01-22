@@ -1,8 +1,8 @@
 Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
-Version:	4.5.4
-Release:	2
+Version:	4.6.0
+Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	kde4-decoration-oxygen >= %{version}
@@ -103,7 +103,6 @@ Requires:	kde4-phonon >= %{version}
 Requires:	kde4-splash-Default >= %{version}
 Requires:	kde4-style-oxygen >= %{version}
 Requires:	phonon-backend-xine
-Requires:	polkit-kde-1
 Requires:	xine-decode-ogg
 Requires:	xinitrc-ng
 Requires:	xterm
