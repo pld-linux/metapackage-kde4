@@ -1,7 +1,7 @@
 Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
-Version:	4.6.0
+Version:	4.7.1
 Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
@@ -14,8 +14,8 @@ Requires:	kde4-kdeartwork-wallpapers >= %{version}
 Requires:	kde4-kdebase >= %{version}
 Requires:	kde4-kdebase-kdialog >= %{version}
 Requires:	kde4-kdebase-kfind >= %{version}
-Requires:	kde4-kdebase-konsole >= %{version}
-Requires:	kde4-kdebase-kwrite >= %{version}
+Requires:	konsole >= %{version}
+Requires:	kate >= %{version}
 Requires:	kde4-kdebase-runtime >= %{version}
 Requires:	kde4-kdebase-useraccount >= %{version}
 Requires:	kde4-kdebase-workspace >= %{version}
@@ -29,17 +29,17 @@ Requires:	kde4-kdebase-workspace-plasma >= %{version}
 Requires:	kde4-kdebase-workspace-screensavers >= %{version}
 Requires:	kde4-kdebase-workspace-solid >= %{version}
 Requires:	kde4-kdebase-workspace-wallpapers >= %{version}
-Requires:	kde4-kdegraphics-gwenview >= %{version}
-Requires:	kde4-kdegraphics-kamera >= %{version}
-Requires:	kde4-kdegraphics-kcolorchooser >= %{version}
+Requires:	gwenview >= %{version}
+Requires:	kamera >= %{version}
+Requires:	kcolorchooser >= %{version}
 Requires:	kde4-kdegraphics-kfile >= %{version}
-Requires:	kde4-kdegraphics-kgamma >= %{version}
-Requires:	kde4-kdegraphics-kolourpaint >= %{version}
-Requires:	kde4-kdegraphics-kruler >= %{version}
+Requires:	kgamma >= %{version}
+Requires:	kolourpaint >= %{version}
+Requires:	kruler >= %{version}
 Requires:	kde4-kdegraphics-ksane >= %{version}
-Requires:	kde4-kdegraphics-ksnapshot >= %{version}
-Requires:	kde4-kdegraphics-okular >= %{version}
-Requires:	kde4-kdegraphics-svgpart >= %{version}
+Requires:	ksnapshot >= %{version}
+Requires:	okular >= %{version}
+Requires:	svgpart >= %{version}
 Requires:	kde4-kdelibs >= %{version}
 Requires:	kde4-kdemultimedia-audiocd >= %{version}
 Requires:	kde4-kdemultimedia-cddb >= %{version}
@@ -98,7 +98,7 @@ Requires:	kde4-kgreet-classic >= %{version}
 Requires:	kde4-kgreet-generic >= %{version}
 Requires:	kde4-konqueror >= %{version}
 Requires:	kde4-konqueror-libs >= %{version}
-Requires:	kde4-libkipi >= %{version}
+Requires:	libkipi >= %{version}
 Requires:	kde4-phonon >= %{version}
 Requires:	kde4-splash-Default >= %{version}
 Requires:	kde4-style-oxygen >= %{version}
