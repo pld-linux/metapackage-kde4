@@ -2,7 +2,7 @@ Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
 Version:	4.7.1
-Release:	1
+Release:	2
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	kde4-decoration-oxygen >= %{version}
@@ -28,15 +28,16 @@ Requires:	kde4-kdebase-workspace-networkmanager >= %{version}
 Requires:	kde4-kdebase-workspace-plasma >= %{version}
 Requires:	kde4-kdebase-workspace-screensavers >= %{version}
 Requires:	kde4-kdebase-workspace-solid >= %{version}
-Requires:	kde4-kdebase-workspace-wallpapers >= %{version}
+Requires:	kde4-wallpapers >= %{version}
 Requires:	gwenview >= %{version}
 Requires:	kamera >= %{version}
 Requires:	kcolorchooser >= %{version}
-Requires:	kde4-kdegraphics-kfile >= %{version}
+Requires:	kdegraphics-thumbnailers >= %{version}
+Requires:	kdegraphics-strigi-analyzer >= %{version}
 Requires:	kgamma >= %{version}
 Requires:	kolourpaint >= %{version}
 Requires:	kruler >= %{version}
-Requires:	kde4-kdegraphics-ksane >= %{version}
+Requires:	ksane >= %{version}
 Requires:	ksnapshot >= %{version}
 Requires:	okular >= %{version}
 Requires:	svgpart >= %{version}
