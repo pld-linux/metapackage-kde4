@@ -1,8 +1,8 @@
 Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
-Version:	4.7.1
-Release:	3
+Version:	4.8.0
+Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	kde4-decoration-oxygen >= %{version}
@@ -14,8 +14,8 @@ Requires:	kde4-kdeartwork-wallpapers >= %{version}
 Requires:	kde4-kdebase >= %{version}
 Requires:	kde4-kdebase-kdialog >= %{version}
 Requires:	kde4-kdebase-kfind >= %{version}
-Requires:	konsole >= %{version}
-Requires:	kate >= %{version}
+Requires:	kde4-konsole >= %{version}
+Requires:	kde4-kate >= %{version}
 Requires:	kde4-kdebase-runtime >= %{version}
 Requires:	kde4-kdebase-useraccount >= %{version}
 Requires:	kde4-kdebase-workspace >= %{version}
@@ -29,18 +29,18 @@ Requires:	kde4-kdebase-workspace-plasma >= %{version}
 Requires:	kde4-kdebase-workspace-screensavers >= %{version}
 Requires:	kde4-kdebase-workspace-solid >= %{version}
 Requires:	kde4-wallpapers >= %{version}
-Requires:	gwenview >= %{version}
-Requires:	kamera >= %{version}
-Requires:	kcolorchooser >= %{version}
-Requires:	kdegraphics-thumbnailers >= %{version}
-Requires:	kdegraphics-strigi-analyzer >= %{version}
-Requires:	kgamma >= %{version}
-Requires:	kolourpaint >= %{version}
-Requires:	kruler >= %{version}
-Requires:	ksaneplugin >= %{version}
-Requires:	ksnapshot >= %{version}
-Requires:	okular >= %{version}
-Requires:	svgpart >= %{version}
+Requires:	kde4-gwenview >= %{version}
+Requires:	kde4-kamera >= %{version}
+Requires:	kde4-kcolorchooser >= %{version}
+Requires:	kde4-kdegraphics-thumbnailers >= %{version}
+Requires:	kde4-kdegraphics-strigi-analyzer >= %{version}
+Requires:	kde4-kgamma >= %{version}
+Requires:	kde4-kolourpaint >= %{version}
+Requires:	kde4-kruler >= %{version}
+Requires:	kde4-ksaneplugin >= %{version}
+Requires:	kde4-ksnapshot >= %{version}
+Requires:	kde4-okular >= %{version}
+Requires:	kde4-svgpart >= %{version}
 Requires:	kde4-kdelibs >= %{version}
 Requires:	kde4-kdemultimedia-audiocd >= %{version}
 Requires:	kde4-kdemultimedia-cddb >= %{version}
@@ -99,7 +99,7 @@ Requires:	kde4-kgreet-classic >= %{version}
 Requires:	kde4-kgreet-generic >= %{version}
 Requires:	kde4-konqueror >= %{version}
 Requires:	kde4-konqueror-libs >= %{version}
-Requires:	libkipi >= %{version}
+Requires:	kde4-libkipi >= %{version}
 Requires:	kde4-phonon >= %{version}
 Requires:	kde4-splash-Default >= %{version}
 Requires:	kde4-style-oxygen >= %{version}
