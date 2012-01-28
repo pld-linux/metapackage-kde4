@@ -2,7 +2,7 @@ Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
 Version:	4.8.0
-Release:	2
+Release:	3
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	kde4-decoration-oxygen >= %{version}
@@ -69,7 +69,6 @@ Requires:	kde4-kdenetwork-krfb >= %{version}
 #Requires:	kde4-kdepim-kontact-plugin-kmail >= %{version}
 #Requires:	kde4-kdepim-kontact-plugin-knode >= %{version}
 #Requires:	kde4-kdepim-kontact-plugin-korganizer >= %{version}
-#Requires:	kde4-kdepim-kontact-plugin-planner >= %{version}
 #Requires:	kde4-kdepim-kontact-plugin-summary >= %{version}
 #Requires:	kde4-kdepim-libs >= %{version}
 #Requires:	kde4-kdepim-runtime >= %{version}
@@ -85,7 +84,6 @@ Requires:	kde4-kdepim-kontact-plugin-kaddressbook >= 4.4.8
 Requires:	kde4-kdepim-kontact-plugin-kmail >= 4.4.8
 Requires:	kde4-kdepim-kontact-plugin-knode >= 4.4.8
 Requires:	kde4-kdepim-kontact-plugin-korganizer >= 4.4.8
-Requires:	kde4-kdepim-kontact-plugin-planner >= 4.4.8
 Requires:	kde4-kdepim-kontact-plugin-summary >= 4.4.8
 Requires:	kde4-kdepim-libs >= 4.4.8
 Requires:	kde4-kdepim-runtime >= 4.4.8
