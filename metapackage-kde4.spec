@@ -2,7 +2,7 @@ Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
 Version:	4.10.0
-Release:	1
+Release:	2
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	kde4-decoration-oxygen >= %{version}
@@ -81,7 +81,6 @@ Requires:	kde4-kdepim-kontact-plugin-summary >= %{version}
 Requires:	kde4-kdepim-korganizer >= %{version}
 Requires:	kde4-kdepim-ktimetracker >= %{version}
 Requires:	kde4-kdepim-libs >= %{version}
-Requires:	kde4-kdepim-plugins >= %{version}
 Requires:	kde4-kdepim-runtime >= %{version}
 Requires:	kde4-kdepimlibs >= %{version}
 Requires:	kde4-kdeplasma-addons >= %{version}
