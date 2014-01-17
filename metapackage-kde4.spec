@@ -1,8 +1,8 @@
 Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
-Version:	4.10.0
-Release:	2
+Version:	4.12.0
+Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	kde4-decoration-oxygen >= %{version}
@@ -25,7 +25,6 @@ Requires:	kde4-kdebase-workspace-kfontinst >= %{version}
 Requires:	kde4-kdebase-workspace-klipper >= %{version}
 Requires:	kde4-kdebase-workspace-kwin >= %{version}
 Requires:	kde4-kdebase-workspace-kwrited >= %{version}
-Requires:	kde4-kdebase-workspace-networkmanager >= %{version}
 Requires:	kde4-kdebase-workspace-plasma >= %{version}
 Requires:	kde4-kdebase-workspace-screensavers >= %{version}
 Requires:	kde4-kdebase-workspace-solid >= %{version}
@@ -36,6 +35,7 @@ Requires:	kde4-kcolorchooser >= %{version}
 Requires:	kde4-kdegraphics-thumbnailers >= %{version}
 Requires:	kde4-kdegraphics-strigi-analyzer >= %{version}
 Requires:	kde4-kgamma >= %{version}
+Requires:	kde4-knetworkmanager
 Requires:	kde4-kolourpaint >= %{version}
 Requires:	kde4-kruler >= %{version}
 Requires:	kde4-ksaneplugin >= %{version}
@@ -51,14 +51,9 @@ Requires:	kde4-kscd >= %{version}
 Requires:	kde4-libkcddb >= %{version}
 Requires:	kde4-libkcompactdisc >= %{version}
 Requires:	kde4-kdenetwork-filesharing >= %{version}
-Requires:	kde4-kdenetwork-kget >= %{version}
-Requires:	kde4-kdenetwork-kopete >= %{version}
-Requires:	kde4-kdenetwork-kopete-protocol-gg >= %{version}
-Requires:	kde4-kdenetwork-kopete-protocol-icq >= %{version}
-Requires:	kde4-kdenetwork-kopete-protocol-jabber >= %{version}
-Requires:	kde4-kdenetwork-kopete-protocol-wlm >= %{version}
-Requires:	kde4-kdenetwork-kopete-tool-history >= %{version}
-Requires:	kde4-kdenetwork-krfb >= %{version}
+Requires:	kde4-kget >= %{version}
+Requires:	kde4-kopete >= %{version}
+Requires:	kde4-krfb >= %{version}
 Requires:	kde4-kdepim >= %{version}
 Requires:	kde4-kdepim-akregator >= %{version}
 Requires:	kde4-kdepim-blogilo >= %{version}
