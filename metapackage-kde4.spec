@@ -1,11 +1,13 @@
+%define		kdebase_workspace	4.11.5
+
 Summary:	K Desktop Environment 4 with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne KDE4 z dodatkowymi pakietami
 Name:		metapackage-kde4
 Version:	4.12.0
-Release:	1
+Release:	2
 License:	GPL/LGPL
 Group:		X11/Applications
-Requires:	kde4-decoration-oxygen >= %{version}
+Requires:	kde4-decoration-oxygen >= %{kdebase_workspace}
 Requires:	kde4-desktopthemes >= %{version}
 Requires:	kde4-dolphin >= %{version}
 Requires:	kde4-icons-oxygen >= %{version}
@@ -19,15 +21,15 @@ Requires:	kde4-konsole >= %{version}
 Requires:	kde4-kate >= %{version}
 Requires:	kde4-kdebase-runtime >= %{version}
 Requires:	kde4-kdebase-useraccount >= %{version}
-Requires:	kde4-kdebase-workspace >= %{version}
-Requires:	kde4-kdebase-workspace-infocenter >= %{version}
-Requires:	kde4-kdebase-workspace-kfontinst >= %{version}
-Requires:	kde4-kdebase-workspace-klipper >= %{version}
-Requires:	kde4-kdebase-workspace-kwin >= %{version}
-Requires:	kde4-kdebase-workspace-kwrited >= %{version}
-Requires:	kde4-kdebase-workspace-plasma >= %{version}
-Requires:	kde4-kdebase-workspace-screensavers >= %{version}
-Requires:	kde4-kdebase-workspace-solid >= %{version}
+Requires:	kde4-kdebase-workspace >= %{kdebase_workspace}
+Requires:	kde4-kdebase-workspace-infocenter >= %{kdebase_workspace}
+Requires:	kde4-kdebase-workspace-kfontinst >= %{kdebase_workspace}
+Requires:	kde4-kdebase-workspace-klipper >= %{kdebase_workspace}
+Requires:	kde4-kdebase-workspace-kwin >= %{kdebase_workspace}
+Requires:	kde4-kdebase-workspace-kwrited >= %{kdebase_workspace}
+Requires:	kde4-kdebase-workspace-plasma >= %{kdebase_workspace}
+Requires:	kde4-kdebase-workspace-screensavers >= %{kdebase_workspace}
+Requires:	kde4-kdebase-workspace-solid >= %{kdebase_workspace}
 Requires:	kde4-wallpapers >= %{version}
 Requires:	kde4-gwenview >= %{version}
 Requires:	kde4-kamera >= %{version}
@@ -81,14 +83,14 @@ Requires:	kde4-kdepimlibs >= %{version}
 Requires:	kde4-kdeplasma-addons >= %{version}
 Requires:	kde4-ark >= %{version}
 Requires:	kde4-kwallet >= %{version}
-Requires:	kde4-kdm >= %{version}
-Requires:	kde4-kgreet-classic >= %{version}
-Requires:	kde4-kgreet-generic >= %{version}
+Requires:	kde4-kdm >= %{kdebase_workspace}
+Requires:	kde4-kgreet-classic >= %{kdebase_workspace}
+Requires:	kde4-kgreet-generic >= %{kdebase_workspace}
 Requires:	kde4-konqueror >= %{version}
 Requires:	kde4-konqueror-libs >= %{version}
 Requires:	kde4-libkipi >= %{version}
 Requires:	kde4-phonon >= %{version}
-Requires:	kde4-style-oxygen >= %{version}
+Requires:	kde4-style-oxygen >= %{kdebase_workspace}
 Requires:	qt4-phonon-backend
 Requires:	xine-decode-ogg
 Requires:	xinitrc-ng
